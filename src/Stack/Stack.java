@@ -46,6 +46,7 @@ public class Stack {
         private Node next;
 
         private Node(int value){
+
             this.value=value;
         }
 
