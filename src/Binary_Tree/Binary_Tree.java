@@ -8,6 +8,7 @@ public class Binary_Tree {
 
     Scanner s=new Scanner(System.in);
     public Binary_Tree(){
+
         root=takeInput(null,false);
     }
 
@@ -44,6 +45,7 @@ public class Binary_Tree {
 
 
     public void preOrder() {
+
         preOrder(root);
     }
 
